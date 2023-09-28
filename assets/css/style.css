@@ -1,3 +1,8 @@
+.skillicon {
+  font-size: 5rem;
+  margin: 1rem;
+}
+
 .profile-pic {
   position: relative;
   max-width:130px;
@@ -489,7 +494,8 @@ a.hoverline:hover {
 
 #skills .col img.responsive-img {
   margin: 0 auto;
-  max-height: 100px;
+  /* max-height: 100px; */
+  height: 100px;
   padding-bottom: 10px;
   text-align: center;
   vertical-align: middle;
