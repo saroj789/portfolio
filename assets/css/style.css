@@ -3,6 +3,17 @@
   margin: 1rem;
 }
 
+
+#skills .col.s4.m3{
+margin-top: 3rem;
+}
+
+@media (max-width: 450px) {
+  #skills .col.s4.m3{
+    width: 50%;
+  }
+}
+
 .profile-pic {
   position: relative;
   max-width:130px;
@@ -488,7 +499,8 @@ a.hoverline:hover {
 
 #skills h4 {
   border-bottom: 1px solid #ddd;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+  margin-bottom: -0.8rem;
   padding-bottom: 20px;
 }
 
