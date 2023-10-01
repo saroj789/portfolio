@@ -8,6 +8,10 @@
 margin-top: 3rem;
 }
 
+.card .card-action{
+  border: none;
+}
+
 @media (max-width: 450px) {
   #skills .col.s4.m3{
     width: 50%;
