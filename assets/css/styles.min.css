@@ -1,0 +1,136 @@
+/*
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: "Exo 2";
+  overflow-x: hidden;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+*/
+body {
+  background: #000;
+}
+
+.world-map, .video-background, .card.terminal{
+  box-sizing: border-box;
+  background: #000;
+  color: #fff;
+  font-family: "Exo 2";
+  overflow-x: hidden;
+  font-size: 14px;
+  padding: 0;
+  /* margin: 0; */
+}
+
+
+.world-map {
+  background: url("../img/bg-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -100;
+  opacity: 0.2;
+}
+
+.video-background video {
+  height: 100%;
+}
+
+a {
+  color: orange;
+}
+
+a:hover {
+  color: #fff;
+}
+
+
+
+/* css for terminal box */
+.terminal{
+  max-width: calc(100% - 30px);
+  width: 450px;
+  margin: 0 auto;
+  position: fixed;
+  left: 15px;
+  right: 15px;
+  top: 20%;
+  z-index: 1000;
+}
+
+.card.terminal {
+  opacity: 0.95;
+  border: 2px solid #67b6b9;
+  box-shadow: 0 0 30px #000;
+}
+
+.terminal .card-header {
+  text-transform: uppercase;
+}
+
+
+.card.terminal .card-header {
+  background: #0c2b35;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  color: #67b6b9;
+  padding: 4px 5px;
+  font-weight: bold;
+  border-bottom: 2px solid #101b22;
+}
+
+
+.terminal .card-body {
+  display: block !important;
+  min-height: 200px;
+  padding: 15px;
+  text-transform: initial !important;
+}
+
+.card.terminal .card-body {
+  display: grid;
+  background: #0c2b35;
+  position: relative;
+}
+
+.card.terminal:before {
+  content: "";
+  background: #0c2b35;
+  position: absolute;
+  top: -2px;
+  width: calc(100% - 50px);
+  display: block;
+  height: 2px;
+  left: 25px;
+}
+
+.card.terminal:after {
+  content: "";
+  background: #0c2b35;
+  position: absolute;
+  bottom: -2px;
+  width: calc(100% - 50px);
+  display: block;
+  height: 2px;
+  left: 25px;
+}

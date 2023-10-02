@@ -1,0 +1,45 @@
+/*
+css for terminal line, text, cursor and blink (for every single line)
+*/
+.slick-terminal {
+    background: #000;
+    height: 300px;
+    width: 400px;
+    padding: 15px;
+    font-family: 'Arial';
+    font-size: 14px;
+}
+.slick-terminal-line {
+    position: relative;
+    overflow: auto;
+    margin-bottom: 2px;
+}
+.slick-terminal-caret {
+    vertical-align: middle;
+    color: #fff;
+    margin-right: 10px;
+}
+.slick-terminal-cursor {
+    vertical-align: middle;
+    display: inline-block;
+    width: 8px;
+    height: 16px;
+    background: #fff;
+    opacity: 1;
+}
+.slick-terminal-blink {
+    animation-name: blink;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+}
+.slick-terminal-text {
+    vertical-align: middle;
+    color: #fff;
+}
+
+@keyframes blink {
+    0% {opacity: 1}
+    60% {opacity: 1}
+    80% {opacity: 0}
+}
+	
