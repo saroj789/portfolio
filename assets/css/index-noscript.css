@@ -1,0 +1,10 @@
+.fade-up{opacity:1;transform:none}
+@media(max-width:900px){
+  .hamburger{display:none !important}
+  .nav-links{display:flex !important}
+  .mobile-nav{display:none !important}
+}
+@media(min-width:901px){
+  .nav-links{display:flex !important}
+  .mobile-nav{display:none !important}
+}
