@@ -161,7 +161,14 @@ document.addEventListener('keydown', e => {
 const observer = new IntersectionObserver(entries => {
   entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
 }, { threshold: 0.1, rootMargin: '0px 0px -60px 0px' });
-document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+const fadeElements = document.querySelectorAll('.fade-up');
+
+if ('IntersectionObserver' in window) {
+  fadeElements.forEach(el => observer.observe(el));
+} else {
+  fadeElements.forEach(el => el.classList.add('visible'));
+}
 
 // smooth nav links
 document.querySelectorAll('a[href^="#"]').forEach(a => {
