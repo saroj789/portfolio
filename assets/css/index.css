@@ -11,6 +11,7 @@
   --edu-bg:rgba(52,211,153,0.1); --edu-bd:rgba(52,211,153,0.2); --edu-c:#34d399;
   --tog-bg:rgba(108,99,255,0.14); --tog-bd:rgba(108,99,255,0.35);
   --shadow:0 2px 12px rgba(0,0,0,0.4);
+  --section-tag-color: #a78bfa;
 }
 [data-theme="light"] {
   --bg:#f4f4f9; --bg2:#eaeaf3; --bg3:#ddddf0;
