@@ -11,6 +11,7 @@
   --edu-bg:rgba(52,211,153,0.1); --edu-bd:rgba(52,211,153,0.2); --edu-c:#34d399;
   --tog-bg:rgba(108,99,255,0.14); --tog-bd:rgba(108,99,255,0.35);
   --shadow:0 2px 12px rgba(0,0,0,0.4);
+  --section-tag-color: #c4b5fd;
 }
 [data-theme="light"] {
   --bg:#f4f4f9; --bg2:#eaeaf3; --bg3:#ddddf0;
@@ -25,6 +26,7 @@
   --edu-bg:rgba(16,185,129,0.1); --edu-bd:rgba(16,185,129,0.22); --edu-c:#059669;
   --tog-bg:rgba(255,255,255,0.85); --tog-bd:rgba(91,82,232,0.22);
   --shadow:0 2px 14px rgba(91,82,232,0.065);
+  --section-tag-color: #3730a3;
 }
 
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
@@ -234,7 +236,7 @@ nav.nav-open{z-index:102}
 /* SECTIONS */
 section{padding:6rem 4rem;position:relative;z-index:1;transition:background .35s}
 .section-header{display:flex;align-items:center;gap:1rem;margin-bottom:3.5rem}
-.section-tag{font-size:.78rem;color:var(--accent2);text-transform:uppercase;letter-spacing:.12em;font-weight:500;white-space:nowrap}
+.section-tag{font-size:.78rem;color:var(--section-tag-color);text-transform:uppercase;letter-spacing:.12em;font-weight:500;white-space:nowrap}
 .section-line{flex:1;height:1px;background:linear-gradient(90deg,var(--border),transparent);max-width:200px}
 .section-title{font-family:'Syne',sans-serif;font-size:clamp(1.8rem,4vw,2.8rem);font-weight:700;letter-spacing:-.02em;margin-bottom:1rem;line-height:1.15;color:var(--text)}
 .section-sub{color:var(--muted);font-size:1rem;max-width:500px;font-weight:300;margin-bottom:2.5rem}

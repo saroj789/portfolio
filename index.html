@@ -75,7 +75,14 @@
       href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap"
       rel="stylesheet">
   </noscript>
-  <script src="/portfolio/assets/js/theme-init.js"></script>
+  <script>
+    (function(){
+      var saved = localStorage.getItem('skv-theme');
+      var preferred = saved || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+      document.documentElement.setAttribute('data-theme', preferred);
+    })();
+  </script>
+  <link rel="preload" href="/portfolio/assets/css/index.css" as="style">
   <link rel="stylesheet" href="/portfolio/assets/css/index.css">
   <noscript>
     <link rel="stylesheet" href="/portfolio/assets/css/index-noscript.css">
@@ -651,7 +658,7 @@
     </div>
   </footer>
 
-  <script src="/portfolio/assets/js/index.js"></script>
+  <script src="/portfolio/assets/js/index.js" defer></script>
 </body>
 
 </html>
