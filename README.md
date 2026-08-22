@@ -71,7 +71,7 @@ git push origin master
 
 | | |
 |---|---|
-| 📧 | [sarojkumarvaishyal@gmail.com](mailto:sarojkumarvaishyal@gmail.com) |
+| 📧 | [sarojk.work@gmail.com](mailto:sarojk.work@gmail.com) |
 | 💼 | [linkedin.com/in/saroj-kumar-vaishya](https://www.linkedin.com/in/saroj-kumar-vaishya/) |
 | 🐙 | [github.com/saroj789](https://github.com/saroj789) |
 
