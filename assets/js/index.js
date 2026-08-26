@@ -191,3 +191,10 @@ sections.forEach(s => navObserver.observe(s));
 
 // copyright year
 document.getElementById('copy-year').textContent = new Date().getFullYear();
+
+window.addEventListener("load", () => {
+  const maniFestLink = document.createElement("link")
+  maniFestLink.rel = "manifest";
+  maniFestLink.href = "./manifest.json";
+  document.head.appendChild(maniFestLink);
+})
