@@ -13,7 +13,11 @@
     content="Java Developer, Spring Boot, Microservices, Backend Engineer, India, Pune, Spring WebFlux, Apache Camel, GCP">
   <meta name="theme-color" content="#6c63ff" media="(prefers-color-scheme: dark)">
   <meta name="theme-color" content="#5b52e8" media="(prefers-color-scheme: light)">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Saroj Vaishya">
   <link rel="canonical" href="https://saroj789.github.io/portfolio/">
+
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://saroj789.github.io/portfolio/">
@@ -27,6 +31,7 @@
   <meta property="og:image:type" content="image/png">
   <meta property="og:locale" content="en_US">
   <meta property="og:site_name" content="Saroj Kumar Vaishya">
+
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Saroj Kumar Vaishya | Java Backend Developer">
@@ -36,6 +41,7 @@
   <meta name="twitter:image:alt" content="Saroj Kumar Vaishya — Java Backend Developer Portfolio">
   <meta name="twitter:creator" content="@BySaroj_X">
   <meta name="twitter:site" content="@BySaroj_X">
+
   <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">
 {
@@ -56,15 +62,25 @@
   "knowsAbout": ["Java", "Spring Boot", "Microservices", "Apache Camel", "GCP", "Redis", "Spring WebFlux"],
   "sameAs": [
     "https://www.linkedin.com/in/saroj-kumar-vaishya/",
-    "https://github.com/saroj789"
+    "https://github.com/saroj789",
+    "https://x.com/BySaroj_X"
   ]
 }
 </script>
-  <!-- favicon: drop favicon.ico + favicon.png (32x32) in this folder -->
-  <link rel="icon" type="image/x-icon" href="/portfolio/favicon.ico">
-  <link rel="icon" type="image/png" sizes="32x32" href="/portfolio/assets/icons/icon-32.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/portfolio/assets/icons/apple-touch-icon.png">
-  <link rel="manifest" href="manifest.json">
+  <!--  Couldn’t add source-->
+  <!--  saroj789.github.io isn't eligible as a Preferred Source at the moment. Manage Preferred Sources-->
+  <!--  that's why commenting this for current domain-->
+  <!--  google-preferred-sources-->
+  <!--  <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>-->
+
+  <!-- Favicons & Manifest -->
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/icon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon.png">
+  <!-- loading  manifest through js due to performance(Render-blocking requests )-->
+  <!--  <link rel="manifest" href="./manifest.json">-->
+
+  <!-- Fonts Optimization -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -75,6 +91,8 @@
       href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap"
       rel="stylesheet">
   </noscript>
+
+  <!-- Inline Theme Script -->
   <script>
     (function(){
       var saved = localStorage.getItem('skv-theme');
@@ -82,10 +100,12 @@
       document.documentElement.setAttribute('data-theme', preferred);
     })();
   </script>
-  <link rel="preload" href="/portfolio/assets/css/index.css" as="style">
-  <link rel="stylesheet" href="/portfolio/assets/css/index.css">
+
+  <!-- Styles -->
+  <link rel="preload" href="./assets/css/index.css" as="style">
+  <link rel="stylesheet" href="./assets/css/index.css">
   <noscript>
-    <link rel="stylesheet" href="/portfolio/assets/css/index-noscript.css">
+    <link rel="stylesheet" href="./assets/css/index-noscript.css">
   </noscript>
 </head>
 
@@ -192,7 +212,7 @@
             </svg>
             Get in Touch
           </a>
-          <a href="/portfolio/Saroj_Resume.pdf" download class="btn-resume">
+          <a href="./Saroj_Resume.pdf" download class="btn-resume">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
               <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
@@ -644,7 +664,7 @@
             <polyline points="22,6 12,13 2,6" />
           </svg>
         </a>
-        <a href="/portfolio/resume.pdf" download aria-label="Download Resume">
+        <a href="./resume.pdf" download aria-label="Download Resume">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
@@ -656,9 +676,13 @@
       <p class="footer-copy">Designed &amp; built by Saroj Kumar Vaishya</p>
       <p class="footer-copy">© <span id="copy-year">2026</span> · All rights reserved</p>
     </div>
+<!--    Couldn’t add source-->
+<!--    saroj789.github.io isn't eligible as a Preferred Source at the moment. Manage Preferred Sources-->
+<!--    thats why commenting this for current domain-->
+<!--    <div google-add-preferred-source-btn class="google-add-preferred-source-btn"></div>-->
   </footer>
 
-  <script src="/portfolio/assets/js/index.js" defer></script>
+  <script src="./assets/js/index.js" defer></script>
 </body>
 
 </html>
